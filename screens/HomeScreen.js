@@ -7,8 +7,16 @@ export default function HomeScreen({ navigation }) {
       <Text style={styles.title}>Home Screen</Text>
       <Text style={styles.subtitle}>Welcome to React Native Navigation!</Text>
       <Button
+        style={styles.buttonLayout}
         title="Go to Details"
-        onPress={() => navigation.navigate("Details")}
+        onPress={() =>
+          navigation.navigate("Details", { itemId: 86, userName: "John" })
+        }
+      />
+      <View style={styles.spacer} />
+      <Button
+        title="Go to Profile"
+        onPress={() => navigation.navigate("Profile")}
       />
     </View>
   );
@@ -32,5 +40,8 @@ const styles = StyleSheet.create({
     color: "#666",
     marginBottom: 20,
     textAlign: "center",
+  },
+  spacer: {
+    height: 10,
   },
 });

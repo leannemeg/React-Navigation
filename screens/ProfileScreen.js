@@ -1,14 +1,11 @@
 import React from "react";
 import { View, Text, Button, StyleSheet } from "react-native";
 
-export default function DetailsScreen({ navigation, route }) {
-  const { itemId, userName } = route.params;
+export default function ProfileScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Details Screen</Text>
-      <Text style={styles.subtitle}>This is the details page.</Text>
-      <Text style={styles.subtitle}>ID: {itemId}</Text>
-      <Text style={styles.subtitle}>Username: {userName}</Text>
+      <Text style={styles.title}>Profile Screen</Text>
+      <Text style={styles.subtitle}>This is the profile page.</Text>
       <Button title="Go to Home" onPress={() => navigation.navigate("Home")} />
       <View style={styles.spacer} />
       <Button title="Go Back" onPress={() => navigation.goBack()} />

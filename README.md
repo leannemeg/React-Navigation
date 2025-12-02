@@ -3,10 +3,10 @@
 A React Native application demonstrating stack navigation using React Navigation and Expo.
 
 ## Student Information
-- **Name:** [Your Full Name]
-- **Student ID:** [Your ID]
+- **Name:** Leanne Meg Mason
+- **Student ID:** 202203703
 - **Course:** Mobile Application Development
-- **Date:** [Submission Date]
+- **Date:** 12/02/2025
 
 ## Features
 - Stack navigation between screens
@@ -54,13 +54,16 @@ npm run web
 \`\`\`
 
 ## Screenshots
-[Add screenshots of your running app here]
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
 
 ## Challenges Faced
-[Describe any challenges you encountered and how you resolved them]
+Passing parameters, doing CSS styling because I'm used to NativeWind shortened code now.
 
 ## Learning Outcomes
-[Describe what you learned from this lab activity]
+I learned to make an app from scratch rather than expo automatically doing it for me after installing.
 
 ## References
 - [React Navigation Documentation](https://reactnavigation.org/)
