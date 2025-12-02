@@ -48,6 +48,7 @@ npm run web
 ├── screens/
 │   ├── HomeScreen.js     # Home screen
 │   └── DetailsScreen.js  # Details screen
+│   └── ProfileScreen.js  # Profile screen
 ├── package.json          # Dependencies
 ├── app.json             # Expo configuration
 └── README.md            # Documentation
